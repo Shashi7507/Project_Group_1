@@ -1,0 +1,8 @@
+server.port=8095
+spring.datasource.url=jdbc:mysql://localhost:3307/springapps
+spring.datasource.username=cdac
+spring.datasource.password=cdac
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.mvc.view.prefix=/pages/
+spring.mvc.view.suffix=.jsp
