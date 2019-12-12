@@ -20,7 +20,8 @@ public class Hello extends HttpServlet {
      * @see HttpServlet#HttpServlet()
      */
     public Hello() {
-        super();
+		System.out.println("hello");
+		super();
         // TODO Auto-generated constructor stub
     }
 
