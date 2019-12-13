@@ -37,6 +37,7 @@ public class Hello extends HttpServlet {
 		PrintWriter out=response.getWriter();
 		
 		out.println("Sum is :: "+(no1+no2));
+		System.out.println("two files are appended");
 	}
 
 	/**
