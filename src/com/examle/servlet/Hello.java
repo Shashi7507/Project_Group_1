@@ -29,7 +29,7 @@ public class Hello extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.getWriter().append("Served at serverport: ").append(request.getContextPath());
 		String num1=request.getParameter("num1");
 		String num2=request.getParameter("num1");
 		int no1=Integer.parseInt(num1);
